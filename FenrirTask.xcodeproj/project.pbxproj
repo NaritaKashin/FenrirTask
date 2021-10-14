@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1825FC1E2716FE4400AC1BB4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FC1D2716FE4400AC1BB4 /* SecondViewController.swift */; };
+		1825FC202717050A00AC1BB4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825FC1F2717050A00AC1BB4 /* ThirdViewController.swift */; };
 		18E72C03270E3C5F0055A4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72C02270E3C5F0055A4E2 /* AppDelegate.swift */; };
 		18E72C05270E3C5F0055A4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72C04270E3C5F0055A4E2 /* ViewController.swift */; };
 		18E72C08270E3C5F0055A4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E72C06270E3C5F0055A4E2 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		18E72C0D270E3C600055A4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E72C0B270E3C600055A4E2 /* LaunchScreen.storyboard */; };
 		18E72C18270E3C600055A4E2 /* FenrirTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72C17270E3C600055A4E2 /* FenrirTaskTests.swift */; };
 		18E72C23270E3C600055A4E2 /* FenrirTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E72C22270E3C600055A4E2 /* FenrirTaskUITests.swift */; };
+		18E72C3427119C480055A4E2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E72C3327119C480055A4E2 /* MapKit.framework */; };
+		A13CA800D94CDF70A5A15FC1 /* Pods_FenrirTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DA092A4D5EA4665CC92BB2 /* Pods_FenrirTaskTests.framework */; };
+		A894F290C384251D12022703 /* Pods_FenrirTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E6A0A6BE88DFE37908E4E0 /* Pods_FenrirTask.framework */; };
+		ADD9994C69CDC45D375C16D5 /* Pods_FenrirTask_FenrirTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EC015C42322637DAC9D905 /* Pods_FenrirTask_FenrirTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08EC015C42322637DAC9D905 /* Pods_FenrirTask_FenrirTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirTask_FenrirTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		124BBA3656FCFB88252294A5 /* Pods-FenrirTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirTask.debug.xcconfig"; path = "Target Support Files/Pods-FenrirTask/Pods-FenrirTask.debug.xcconfig"; sourceTree = "<group>"; };
+		1825FC1D2716FE4400AC1BB4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1825FC1F2717050A00AC1BB4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		18E72BFF270E3C5F0055A4E2 /* FenrirTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenrirTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E72C02270E3C5F0055A4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E72C04270E3C5F0055A4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E72C04270E3C5F0055A4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		18E72C07270E3C5F0055A4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E72C09270E3C600055A4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E72C0C270E3C600055A4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		18E72C1E270E3C600055A4E2 /* FenrirTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FenrirTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E72C22270E3C600055A4E2 /* FenrirTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenrirTaskUITests.swift; sourceTree = "<group>"; };
 		18E72C24270E3C600055A4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E72C3327119C480055A4E2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		25165417EAD1BCB2C92F0474 /* Pods-FenrirTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-FenrirTaskTests/Pods-FenrirTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36DA092A4D5EA4665CC92BB2 /* Pods_FenrirTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E6A0A6BE88DFE37908E4E0 /* Pods_FenrirTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FenrirTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69210F1B88150B890F8D470F /* Pods-FenrirTask-FenrirTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirTask-FenrirTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-FenrirTask-FenrirTaskUITests/Pods-FenrirTask-FenrirTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA6629EC163BA46C0ABF9B5D /* Pods-FenrirTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirTask.release.xcconfig"; path = "Target Support Files/Pods-FenrirTask/Pods-FenrirTask.release.xcconfig"; sourceTree = "<group>"; };
+		BD67718905E9A4603D42C202 /* Pods-FenrirTask-FenrirTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirTask-FenrirTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-FenrirTask-FenrirTaskUITests/Pods-FenrirTask-FenrirTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE410D93970C50D04DC69AE8 /* Pods-FenrirTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FenrirTaskTests.release.xcconfig"; path = "Target Support Files/Pods-FenrirTaskTests/Pods-FenrirTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E72C3427119C480055A4E2 /* MapKit.framework in Frameworks */,
+				A894F290C384251D12022703 /* Pods_FenrirTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13CA800D94CDF70A5A15FC1 /* Pods_FenrirTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD9994C69CDC45D375C16D5 /* Pods_FenrirTask_FenrirTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +103,8 @@
 				18E72C16270E3C600055A4E2 /* FenrirTaskTests */,
 				18E72C21270E3C600055A4E2 /* FenrirTaskUITests */,
 				18E72C00270E3C5F0055A4E2 /* Products */,
+				18E72C3227119C480055A4E2 /* Frameworks */,
+				4B576E3D1FAEC211DB81E930 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				18E72C02270E3C5F0055A4E2 /* AppDelegate.swift */,
-				18E72C04270E3C5F0055A4E2 /* ViewController.swift */,
 				18E72C06270E3C5F0055A4E2 /* Main.storyboard */,
+				18E72C04270E3C5F0055A4E2 /* ViewController.swift */,
+				1825FC1D2716FE4400AC1BB4 /* SecondViewController.swift */,
+				1825FC1F2717050A00AC1BB4 /* ThirdViewController.swift */,
 				18E72C09270E3C600055A4E2 /* Assets.xcassets */,
 				18E72C0B270E3C600055A4E2 /* LaunchScreen.storyboard */,
 				18E72C0E270E3C600055A4E2 /* Info.plist */,
@@ -125,6 +151,30 @@
 			path = FenrirTaskUITests;
 			sourceTree = "<group>";
 		};
+		18E72C3227119C480055A4E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E72C3327119C480055A4E2 /* MapKit.framework */,
+				67E6A0A6BE88DFE37908E4E0 /* Pods_FenrirTask.framework */,
+				08EC015C42322637DAC9D905 /* Pods_FenrirTask_FenrirTaskUITests.framework */,
+				36DA092A4D5EA4665CC92BB2 /* Pods_FenrirTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B576E3D1FAEC211DB81E930 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				124BBA3656FCFB88252294A5 /* Pods-FenrirTask.debug.xcconfig */,
+				BA6629EC163BA46C0ABF9B5D /* Pods-FenrirTask.release.xcconfig */,
+				BD67718905E9A4603D42C202 /* Pods-FenrirTask-FenrirTaskUITests.debug.xcconfig */,
+				69210F1B88150B890F8D470F /* Pods-FenrirTask-FenrirTaskUITests.release.xcconfig */,
+				25165417EAD1BCB2C92F0474 /* Pods-FenrirTaskTests.debug.xcconfig */,
+				FE410D93970C50D04DC69AE8 /* Pods-FenrirTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E72C27270E3C600055A4E2 /* Build configuration list for PBXNativeTarget "FenrirTask" */;
 			buildPhases = (
+				B97DEAB25732BB2303B2ACA1 /* [CP] Check Pods Manifest.lock */,
 				18E72BFB270E3C5F0055A4E2 /* Sources */,
 				18E72BFC270E3C5F0055A4E2 /* Frameworks */,
 				18E72BFD270E3C5F0055A4E2 /* Resources */,
+				41858BCC3105B52047EE585E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E72C2A270E3C600055A4E2 /* Build configuration list for PBXNativeTarget "FenrirTaskTests" */;
 			buildPhases = (
+				A0D34D8F7182B1EF642E4BAC /* [CP] Check Pods Manifest.lock */,
 				18E72C0F270E3C600055A4E2 /* Sources */,
 				18E72C10270E3C600055A4E2 /* Frameworks */,
 				18E72C11270E3C600055A4E2 /* Resources */,
@@ -167,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E72C2D270E3C600055A4E2 /* Build configuration list for PBXNativeTarget "FenrirTaskUITests" */;
 			buildPhases = (
+				506BA8FC006410FB14B894F6 /* [CP] Check Pods Manifest.lock */,
 				18E72C1A270E3C600055A4E2 /* Sources */,
 				18E72C1B270E3C600055A4E2 /* Frameworks */,
 				18E72C1C270E3C600055A4E2 /* Resources */,
+				9C353890223CA5363A3959E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,11 +306,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41858BCC3105B52047EE585E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirTask/Pods-FenrirTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirTask/Pods-FenrirTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FenrirTask/Pods-FenrirTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506BA8FC006410FB14B894F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenrirTask-FenrirTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C353890223CA5363A3959E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirTask-FenrirTaskUITests/Pods-FenrirTask-FenrirTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FenrirTask-FenrirTaskUITests/Pods-FenrirTask-FenrirTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FenrirTask-FenrirTaskUITests/Pods-FenrirTask-FenrirTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D34D8F7182B1EF642E4BAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenrirTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97DEAB25732BB2303B2ACA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FenrirTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18E72BFB270E3C5F0055A4E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1825FC1E2716FE4400AC1BB4 /* SecondViewController.swift in Sources */,
+				1825FC202717050A00AC1BB4 /* ThirdViewController.swift in Sources */,
 				18E72C05270E3C5F0055A4E2 /* ViewController.swift in Sources */,
 				18E72C03270E3C5F0055A4E2 /* AppDelegate.swift in Sources */,
 			);
@@ -315,6 +475,7 @@
 		18E72C25270E3C600055A4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -376,6 +537,7 @@
 		18E72C26270E3C600055A4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -430,6 +592,7 @@
 		};
 		18E72C28270E3C600055A4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124BBA3656FCFB88252294A5 /* Pods-FenrirTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +610,7 @@
 		};
 		18E72C29270E3C600055A4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6629EC163BA46C0ABF9B5D /* Pods-FenrirTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +628,7 @@
 		};
 		18E72C2B270E3C600055A4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25165417EAD1BCB2C92F0474 /* Pods-FenrirTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +649,7 @@
 		};
 		18E72C2C270E3C600055A4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE410D93970C50D04DC69AE8 /* Pods-FenrirTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,8 +670,9 @@
 		};
 		18E72C2E270E3C600055A4E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD67718905E9A4603D42C202 /* Pods-FenrirTask-FenrirTaskUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FenrirTaskUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,8 +690,9 @@
 		};
 		18E72C2F270E3C600055A4E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69210F1B88150B890F8D470F /* Pods-FenrirTask-FenrirTaskUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FenrirTaskUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
